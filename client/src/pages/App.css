@@ -1,0 +1,440 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    padding: 0%;
+    caret-color: transparent;
+}
+
+input {
+    caret-color: black;
+}
+
+textarea {
+    caret-color: black;
+}
+
+.header {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    background-color: #3282B8;
+    padding: 30px 0;
+    width: 100%;
+    text-align: center;
+    height: 15vh;
+}
+
+.header h1 {
+    font-size: 60px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1B262C;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 10vh;
+}
+
+.footer p {
+    color: white;
+    font-size: 14px;
+}
+
+.material-symbols-outlined {
+    margin-top: 20px;
+    color: white;
+    scale: 1.2;
+    margin-left: 10px;
+}
+
+/* HOME PAGE */
+
+.cont {
+    margin-top: 9%;
+    display: flex;
+    margin-left: 10%;
+    width: 80%;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+} 
+
+.left-cont {
+    padding: 20px 0;
+    font-size: 40px;
+    width: 40% ;
+    position: relative;
+    display: inline-block;
+}
+
+.left-cont p {
+    border-right: 4px solid #1B262C;
+}
+
+.right-cont {
+    text-align: center;
+    background-color: #BBE1FA;
+    width: 40%;
+    height: 500px;
+    padding: 30px;
+    margin-left: 3%;
+    border-radius: 50px;
+    position: relative;
+}
+
+.right-cont h2 {
+    font-size: 30px;
+}
+
+.right-cont hr {
+    background-color: black;
+    height: 2px;
+    border: 0;
+}
+
+.sign-in {
+    margin-top: 5%;
+    margin: auto;
+    width: 70%;
+    padding: 10% 0;
+}
+
+.sign-up {
+    margin-top: 5%;
+    padding: 0 0;
+}
+
+.username {
+    width: 70%;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.pass {
+    width: 70%;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.button {
+    border-radius: 20px;
+    width: 100px;
+}
+
+.button:hover {
+    border-color: white;
+    width: 120px;
+}
+
+.create-acc {
+    margin-top: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #1B262C;
+}
+
+.eyes {
+    margin: 0;
+    color: #25618a;
+    cursor: pointer;
+}
+
+.eyes::selection {
+    background-color: transparent;
+}
+
+.input-group-text {
+    background-color: rgb(207, 203, 203);
+}
+
+
+/* Dashboard Page */
+
+
+.dashboard {
+    height: 75vh;
+}
+
+.dboard-cont {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 100%;
+}
+
+.dboard-left {
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dboard-left-head {
+    background-color: #FFFFFF;
+    height: 8%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 2px #3282B8;
+}
+
+.dboard-left-bottom {
+    background-color: #FFFFFF;
+    height: 87%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 2px #3282B8;
+}
+
+.dboard-right {
+    background-color: #FFFFFF;
+    width: 25%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 2px #3282B8;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profile-pic {
+    margin: 0 auto;
+    width: 45%;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.user-details {
+    margin: 20px 0;
+}
+
+.team-members {
+    margin: 0 auto;
+    width: 40%;
+    border: 2px solid #3282B8;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: #3282B8;
+    padding: 5px;
+}
+
+.team-members:hover {
+    width: 50%;
+}
+
+.updateprof-btn {
+    margin: 0 auto;
+    width: 40%;
+    border: 2px solid #a3a110;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: #a3a110;
+    padding: 5px;
+}
+
+.updateprof-btn:hover {
+    width: 50%;
+}
+
+.logout-btn {
+    margin: 0 auto;
+    width: 40%;
+    border: 2px solid #B00B0B;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    color: #B00B0B;
+    padding: 5px;
+}
+
+.logout-btn:hover {
+    width: 50%;
+}
+
+.navbar-collapse,
+.navbar-expand-lg {
+    justify-content: center;
+}
+
+.nav-link {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active {
+    color: #25618a;
+}
+
+.nav-link:hover {
+    color: #25618a;
+    cursor: pointer;
+}
+
+.add-teammem-btn {
+    border: 0;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.add-teammem {
+    color: black;
+    margin: 0;
+}
+
+.add-teammem:hover {
+    cursor: pointer;
+    color: rgb(49, 153, 49);
+}
+
+
+/* Task List */
+
+
+.tasklist-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.tasklist {
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 90%;
+    height: 50vh;
+    border: 2px solid #25618a;
+    border-radius: 20px;
+}
+
+.tasklist::-webkit-scrollbar {
+    border: transparent;
+    padding: 5px;
+    width: 1.2rem;
+}
+
+.tasklist::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+.tasklist::-webkit-scrollbar-thumb {
+    background-color: #25618a;
+    padding: 20px;
+    background-clip: padding-box;
+    border: 3px solid transparent;
+    border-radius: 20px;
+}
+
+.tasklist::-webkit-scrollbar-track:hover {
+    background-color: #3282B8;
+}
+
+.list-title {
+    border-bottom: 2px outset #1B262C;
+    margin: 20px;
+    margin-bottom: 0;
+    min-width: 30%;
+    width: fit-content;
+}
+
+.list-title:hover {
+    color: #3282B8;
+    border-bottom: 2px outset #3282B8;
+    cursor: pointer;
+}
+
+.list-date {
+    margin-left: 20px;
+}
+
+.back-arrow {
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.back-arrow:hover {
+    color: #25618a;
+    border: 1px solid #25618a;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+.close-btn {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.close-btn:hover {
+    color: #b13a3a;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.task-title {
+    margin-left: 20px;
+    width: fit-content;
+    padding: 0 10px;
+    border-bottom: 2px dashed #25618a;
+    border-radius: 15%;
+}
+
+.task-date {
+    margin-left: 20px;
+    width: fit-content;
+    border-bottom: 2px outset #25618a;
+}
+
+.task-priority {
+    margin-left: 20px;
+    width: fit-content;
+    border-bottom: 2px outset #25618a;
+}
+
+.task-description {
+    margin-left: 20px;
+    border: 1px dotted black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+/* Create Task */
+
+
+.createtask-cont {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.createtask-form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.createtask-cont .form-control,.form-select {
+    border: 1px solid black;
+}
